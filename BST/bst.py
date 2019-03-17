@@ -10,6 +10,7 @@ class Node():
         self.val = val
         self.left = None
         self.right = None
+        self.balance_factor = 0
 
 class BST():
     def __init__(self):

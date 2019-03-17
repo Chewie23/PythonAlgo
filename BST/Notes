@@ -1,0 +1,45 @@
+So. Binary Search Tree has one basic concept:
+
+Root node at top. Left is the lesser nodes compared to the Root. 
+Right is the greater nodes compared to the Root
+
+I am planning to add in balancing and some recursion.
+
+And on that note, just so I can finally cement it:
+
+Recursion.
+
+It is...an interesting concept. What helps visualize it is a stack (which is,
+of course, LIFO). The stack is an abstraction of what is going on and each
+"plate"/layer represents an unfinished/paused function call.
+
+For instance:
+
+def recursive_insert(parent, new_node):
+    if parent == None:
+        return new_node
+    elif new_node.val > parent.val:
+        parent.right = recursive_insert(parent.right, new_node)
+    elif new_node.val < parent.val:
+        parent.left = recursive_insert(parent.left, new_node)
+    else:
+        print("Node already exists") 
+    return parent
+
+Will be abstracted to fxn(parent, new_node)
+
+
+So we call it by doing:
+root = fxn(root, new_node)
+
+Will proceed through the first function call and pause at the whichever elif
+statement that catches it. For instance, if new_node.val > root.val, then we go
+into another layer/function call of:
+fxn(root.right, new_node)
+
+This will proceed until the respective parent node is None. Then we feed that
+info back into the previous call. That previous call will pick up where it left
+off and WILL hit the "return parent", which will feed back into the previous
+PREVIOUS function call.
+
+The above repeats until we hit the first function call.

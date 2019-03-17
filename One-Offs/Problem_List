@@ -1,0 +1,51 @@
+Gotten from various sources. Just something to chew on and work through
+
+    Reverse an int (i.e. 2234 -> 4322). Preserve sign and be wary of edge cases.
+
+    Design a URL shortening service.
+
+    Delete a node from a linked list (lol).
+
+    Given a point and a radius which designate a circle, return a random point 
+    within that circle.
+
+    Given a string, return the longest palindrome you can make out of the characters.
+
+    Given a sorted integer array, return the majority element if it exists or -1 otherwise.
+
+    Detect a loop in a linked list.
+
+    Write an algorithm to find all permutations of a string.
+
+    Find the longest subsequence whose sum is less than or equal to some k.
+
+    Reverse the letters in a string.
+
+    Fibonacci sequence, iterative, recursive and memoized.
+
+    Anagram and palindrome are really common.
+
+
+
+    Verify a prime number?
+    Find all prime factors of a number?
+    Get nth Fibonacci number?
+    Find the greatest common divisor of two numbers?
+    Remove duplicate members from an array?
+    Merge two sorted array?
+    Swap two numbers without using a temp variable?
+    Reverse a string in JavaScript?
+    Reverse words in a sentence?
+    Reverse words in place?
+    Find the first non repeating char in a string?
+    Remove duplicate characters from a sting?
+    Verify a word as palindrome?
+    Generate random between 5 to 7 by using defined function.
+    Find missing number from unsorted array of integers.
+    Check whether any two numbers in an array sums to a given number?
+    Find the largest sum of any two elements?
+    Total number of zeros from 1 upto n?
+    Match substring of a sting?
+    Create all permutation of a string?
+
+    Given a matrix A[m][n]and a dictionary, find all possible words that can be formed.
